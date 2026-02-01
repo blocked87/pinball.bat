@@ -13,3 +13,9 @@ Pinball.bat works with windows vista omwards.. altough it doesnt launch automati
 Im not sure if windows 7 launches it automatically... Then use the vista command i just created.
 
 For some reason in windows vista it launches it pretty much instantly.. No idea why it takes a long time in Windows 11.
+
+If you want to create a shortcut.. make the icon %TEMP%\extracted\pinball.exe and make the shortcut the location of where pinball is.
+
+And if your in windows vista that doesnt launch pinball.. add:  && %TEMP%\extracted\pinball
+
+to the command.
